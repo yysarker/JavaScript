@@ -1,7 +1,22 @@
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+:root{
+  --bg-light-red: #E34C4D;
+  --bg-primary: white;
+  --text-primary: #2B2B2B;
+  --text-secondary: white;
 }
 body{
+  height: 100vh;
+  font-size: 16px;
+  padding: 50px 20px;
   font-family: 'Lato', sans-serif;
+}
+.total-con{
+  height: 75vh;
+  color: var(--text-secondary);
+  background-color: var(--bg-light-red);
 }
