@@ -5,18 +5,36 @@
 }
 :root{
   --bg-light-red: #E34C4D;
+  --bg-dark-black: #2B2B2B;
   --bg-primary: white;
   --text-primary: #2B2B2B;
   --text-secondary: white;
 }
+
 body{
   height: 100vh;
   font-size: 16px;
   padding: 50px 20px;
   font-family: 'Lato', sans-serif;
 }
-.total-con{
-  height: 75vh;
+
+header{
   color: var(--text-secondary);
-  background-color: var(--bg-light-red);
+  background: var(--bg-light-red);
+}
+
+.total-con{
+  height: 65vh;
+  color: var(--text-secondary);
+  border-left: 1px solid var( --bg-dark-black);
+  border-right: 1px solid var( --bg-dark-black);
+}
+
+.textarea{
+  color: var(--text-secondary);
+}
+
+footer{
+  color: var(--text-secondary);
+  background: var(--bg-light-red);
 }
