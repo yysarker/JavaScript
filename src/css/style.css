@@ -25,9 +25,7 @@ header {
 }
 
 .total-con {
-     height: 100%;
-     overflow: hidden;
-     display: inline-table;
+     height: auto;
      color: var(--text-primary);
      border-left: 1px solid var(--bg-dark-black);
      border-right: 1px solid var(--bg-dark-black);
