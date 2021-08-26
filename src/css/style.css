@@ -12,6 +12,16 @@
      --text-secondary: white;
 }
 
+blockquote {
+     margin: 0 0 1rem;
+     background-color: #FFFFCC;
+     padding: 10px 10px;
+}
+
+blockquote > p {
+     margin-bottom: 0;
+}
+
 body {
      height: 100vh;
      font-size: 16px;
